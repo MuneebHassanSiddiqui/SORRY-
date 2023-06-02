@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    box-sizing:border-box;
+    font-family:'poppins' , sans-serif
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #000;
+}
+ .content{
+    position: relative;
+ }
+ .content h2
+ {
+    position: absolute;
+    transform: translate(-50% , 50%
+     );
+     font-size: 8em;
+}
+.content h2:nth-child(1)
+{
+    color: transparent;
+    -webkit-text-stroke: 2px #03a9f4; 
+}
+.content h2:nth-child(2)
+{
+    color: #03a9f4;
+   animation: animate 4s ease-in-out infinite; 
+}
+@keyframes animate 
+{
+    0%,100%
+    {
+        clip-path: polygon(1% 100%, 100% 100%, 100% 47%, 95% 47%, 89% 47%, 86% 47%, 82% 47%, 80% 45%, 78% 44%, 76% 42%, 74% 41%, 72% 40%, 68% 38%, 66% 35%, 62% 34%, 58% 33%, 56% 33%, 53% 33%, 48% 35%, 42% 38%, 38% 40%, 33% 43%, 29% 45%, 24% 48%, 19% 51%, 15% 53%, 9% 55%, 4% 57%, 2% 57%, 0% 56%);
+    }
+    50%
+   {
+    clip-path: polygon(99% 24%, 95% 26%, 88% 31%, 83% 32%, 76% 33%, 67% 31%, 58% 28%, 47% 28%, 34% 25%, 24% 25%, 19% 29%, 11% 37%, 3% 47%, 1% 99%, 99% 96%);
+   }
+
+}
+
